@@ -1,0 +1,105 @@
+## Adwares
+com.facebook.appmanager # Manages Facebook-related app settings and functionalities.
+com.facebook.katana # Facebook app for social networking.
+com.facebook.services # Provides background services for Facebook apps.
+com.facebook.system # System-level integration for Facebook functionalities.
+com.netflix.mediaclient # Netflix app for streaming video content.
+com.sukhavati.gotoplaying.bubble.BubbleShooter.mint # A casual game app.
+com.sukhavati.gotoplaying.bubble.BubbleShooter.mint # A game app, possibly casual or arcade-style.
+
+## Google Services
+com.google.android.tts # Text-to-speech service for reading text aloud.
+com.android.chrome # Chrome web browser for browsing the internet.
+com.google.android.apps.chromecast.app # App for controlling Chromecast devices.
+com.google.android.apps.docs # Google Docs for creating and editing documents.
+com.google.android.apps.maps # Google Maps for navigation and local information.
+com.google.android.apps.messaging # Google Messages for SMS and chat.
+com.google.android.apps.nbu.files # File management app for Google’s services.
+com.google.android.apps.nbu.paisa.user # User interface for NBU Paisa services.
+com.google.android.apps.photos # Google Photos for storing and managing photos.
+com.google.android.apps.podcasts # Podcast manager app for listening to podcasts.
+com.google.android.apps.restore # Backup and restore application for Google accounts.
+com.google.android.apps.subscriptions.red # Manages subscriptions to various Google services.
+com.google.android.apps.tachyon # Google’s video calling app (Duo).
+com.google.android.apps.wellbeing # Digital Wellbeing app for tracking usage and managing screen time.
+com.google.android.apps.youtube.music # YouTube Music app for streaming music.
+com.google.android.feedback # App for providing feedback to Google.
+com.google.android.gms.location.history # Tracks location history for Google services.
+com.google.android.googlequicksearchbox # Google search app for quick queries.
+com.google.android.inputmethod.latin # Google Keyboard for text input.
+com.google.android.marvin.talkback # Accessibility tool for visually impaired users.
+com.google.android.nearby.halfsheet # Nearby sharing feature for quick file transfer.
+com.google.android.overlay.gmsconfig.common # Common configurations for Google Mobile Services.
+com.google.android.overlay.gmsconfig.comms # Communication-specific configurations for Google Mobile Services.
+com.google.android.overlay.gmsconfig.gsa # Google Search App configurations.
+com.google.android.overlay.modules.ext.services # Extended services for Google overlays.
+com.google.android.overlay.modules.modulemetadata.forframework # Metadata management for Google services.
+com.google.android.overlay.modules.permissioncontroller.forframework # Permission controller overlay for Google services.
+com.google.android.printservice.recommendation # Service for recommending printing options.
+com.google.android.videos # Google Play Movies & TV app for streaming and renting movies.
+
+## Android & System
+com.mi.android.globalFileexplorer # File explorer for managing files on the device.
+android.autoinstalls.config.Xiaomi.model # Configuration for automatic app installation on Xiaomi devices.
+com.android.cellbroadcastreceiver # Handles cell broadcast messages.
+com.android.cellbroadcastreceiver.overlay.miui # Overlay for cell broadcast receiver in MIUI.
+com.android.cellbroadcastservice # Service managing cell broadcast messages.
+com.android.cellbroadcastservice.overlay.miui # Overlay for cell broadcast service in MIUI.
+com.android.deskclock # Alarm clock and timer application.
+com.android.hotwordenrollment.okgoogle # Enables voice activation with "OK Google."
+com.android.networkstack.inprocess.overlay # Overlay for in-process networking functionalities.
+com.android.providers.partnerbookmarks # Provides bookmarks for partner apps in the browser.
+com.android.provision.overlay.miui # Overlays for the MIUI provisioning process.
+com.android.thememanager # App for managing themes on MIUI devices.
+com.android.thememanager.module # Module for theme management functionalities.
+com.android.traceur # Tool for tracing app performance and debugging.
+com.android.wifi.resources.xiaomi # Resources for managing WiFi settings specific to Xiaomi devices.
+com.gallery.player # Media player for viewing and playing media files.
+com.google.android.ext.shared # Shared components for Google services.
+com.mi.android.globalminusscreen # Global services related to MIUI’s minus screen feature.
+
+## Xiaomi Services
+com.fido.xiaomi.uafclient # FIDO authentication client for secure access.
+com.xiaomi.bluetooth # Bluetooth management service for Xiaomi devices.
+com.xiaomi.bluetooth.overlay # Overlay for Xiaomi Bluetooth services.
+com.xiaomi.bttester # Bluetooth testing app for Xiaomi devices.
+com.xiaomi.calendar # Calendar app for scheduling and managing events.
+com.xiaomi.discover # Content discovery app for exploring features and services.
+com.xiaomi.mi_connect_service # Service for connecting to Mi devices and services.
+com.xiaomi.midrop # File-sharing service for transferring files between devices.
+com.xiaomi.payment # Payment service for Xiaomi devices.
+com.xiaomi.powerchecker # Tool for monitoring battery performance.
+com.xiaomi.scanner # QR and barcode scanner app.
+
+## MIUI Services
+com.miui.cloudservice # Services related to MIUI cloud features.
+com.miui.micloudsync # Synchronization service for MI Cloud.
+com.miui.miservice # Service for managing MIUI features and settings.
+com.miui.securitycore # Core security services for MIUI.
+com.miui.rom # MIUI ROM management service.
+com.miui.analytics # Collects and analyzes usage data for MIUI features.
+com.miui.audioeffect # Audio effects app for enhancing sound on MIUI devices.
+com.miui.audiomonitor # Audio monitoring services for MIUI.
+com.miui.bugreport # Tool for reporting bugs within MIUI.
+com.miui.calculator # Calculator app for basic and scientific calculations.
+com.miui.cleaner # Tool for cleaning up unnecessary files and cache.
+com.miui.cloudbackup # Cloud backup service for MIUI users.
+com.miui.daemon # Background service managing various MIUI functionalities.
+com.miui.extraphoto # Additional photo features for MIUI gallery.
+com.miui.fm # FM radio app for listening to radio stations.
+com.miui.fmservice # FM radio service for MIUI.
+com.miui.gallery # Default gallery app for viewing images and videos.
+com.miui.hybrid # Hybrid services for MIUI devices.
+com.miui.hybrid.accessory # Accessory services for MIUI hybrid features.
+com.miui.mediaeditor # Media editing app for photos and videos.
+com.miui.misound # Sound management services for MIUI.
+com.miui.miwallpaper # Wallpaper service for MIUI, offering themes and backgrounds.
+com.miui.notes # Notes application for jotting down thoughts and ideas.
+com.miui.phrase # App for managing phrases and predictive text input.
+com.miui.player # Integrated media player for audio and video playback.
+com.miui.qr # QR code scanner app for reading QR codes.
+com.miui.screenrecorder # Tool for recording the screen.
+com.miui.screenshot # Tool for capturing screenshots.
+com.miui.touchassistant # Touch assistant service for enhancing touch interactions.
+com.miui.weather2 # Weather forecasting app.
+com.miui.yellowpage # Directory service app for local businesses.

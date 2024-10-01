@@ -1,0 +1,17 @@
+com.facebook.appmanager # Facebook App Manager
+com.facebook.services # Facebook Services
+com.facebook.system # Facebook Installer
+com.google.android.apps.subscriptions.red # Google One
+com.mi.android.globalminusscreen # Xiaomi App Vault
+com.mipay.android.manager # MiPay Service
+com.mipay.wallet.in # Mi Pay
+com.miui.analytics # Analytics
+com.miui.daemon # MIUI Daemon
+com.miui.msa.global # MSA Global
+com.miui.yellowpage # Yellow Page
+com.tencent.soter.soterserver # Soter Service
+com.xiaomi.joyose # Joyose
+com.xiaomi.mipicks # GetApps
+com.xiaomi.payment # Mi Coin
+com.xiaomi.simactivate.service # Xiaomi SIM Activation Service
+org.ifaa.aidl.manager # IFAA Service

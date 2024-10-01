@@ -1,0 +1,262 @@
+## Ad and Trackers
+com.facebook.appmanager # Manages Facebook's app services and user data.
+com.facebook.katana # The primary Facebook app for connecting with friends and sharing updates.
+com.facebook.services # Powers background services for the Facebook app.
+com.facebook.system # Essential system components for Facebook functionality.
+com.linkedin.android # LinkedIn app for professional networking and job searching.
+com.microsoft.appmanager # Manages Microsoft's suite of applications and services.
+com.microsoft.office.officehubrow # Central hub for accessing Microsoft Office applications.
+com.microsoft.office.outlook # Outlook app for email management and scheduling.
+com.microsoft.skydrive # OneDrive cloud storage solution for file sharing and backup.
+com.netflix.mediaclient # Streaming app for watching Netflix movies and shows.
+com.netflix.partner.activation # Handles partner activation services for Netflix.
+com.spotify.music # Music streaming service offering a vast library of songs.
+com.touchtype.swiftkey # Intelligent keyboard app that learns your typing style.
+com.swiftkey.swiftkeyconfigurator # Configuration tool for customizing SwiftKey settings.
+de.axelspringer.yana.zeropage # Yana service app by Axel Springer for personalized news.
+
+## Android
+com.sec.android.app.servicemodeapp # Service mode application tailored for Samsung devices.
+com.sec.android.RilServiceModeApp # Manages Radio Interface Layer (RIL) service mode.
+com.dsi.ant.plugins.antplus # ANT+ plugin for collecting sports and fitness data.
+com.dsi.ant.sample.acquirechannels # Sample application for acquiring ANT+ channels.
+com.dsi.ant.server # Server component supporting ANT+ services.
+com.dsi.ant.service.socket # Socket service for ANT+ communications.
+com.android.bips # Bluetooth Input Device Profile (BIP) service.
+com.android.printspooler # Manages print jobs for Android devices.
+com.google.android.printservice.recommendation # Recommends print services for efficient printing.
+com.sec.android.app.bluetoothtest # Testing application for Bluetooth functionality.
+com.sec.android.app.desktoplauncher # Samsung’s customizable desktop launcher interface.
+com.sec.android.app.dexonpc # Facilitates Samsung DeX on PC for seamless productivity.
+com.sec.android.app.factorykeystring # Provides factory keystring functionalities.
+com.sec.android.app.hwmoduletest # Tests hardware modules for diagnostics.
+com.sec.android.app.wlantest # Application for testing WLAN connectivity.
+com.sec.android.desktopmode.uiservice # User interface service for desktop mode.
+com.sec.epdgtestapp # Testing application for EPDG functionalities.
+com.sec.factory # Factory mode application for device diagnostics.
+com.sec.factory.camera # Tests and calibrates camera functionality.
+com.sec.factory.cameralyzer # Analyzes camera performance and features.
+com.sem.factoryapp # General factory application for device management.
+
+## Google
+com.google.android.gms # Core services powering Google Play and other apps.
+com.google.android.gsf # Framework supporting Google services on Android.
+com.google.android.gm # Gmail app for managing your email effortlessly.
+com.google.android.gms.location.history # Tracks location history for personalized experiences.
+com.google.android.tts # Text-to-speech service for accessibility and voice feedback.
+com.android.vending # Google Play Store for downloading apps and games.
+com.google.ar.core # Framework enabling augmented reality experiences on Android.
+com.android.chrome # Chrome browser for fast and secure web browsing.
+com.android.hotwordenrollment.okgoogle # Enables hotword detection for Google Assistant.
+com.android.hotwordenrollment.xgoogle # Additional hotword enrollment service for voice commands.
+com.google.android.apps.docs # Google Docs app for creating and editing documents.
+com.google.android.apps.maps # Comprehensive navigation and mapping service.
+com.google.android.apps.photos # Cloud-based photo storage and editing app.
+com.google.android.apps.restore # Service for restoring apps on your device.
+com.google.android.apps.tachyon # Google Duo app for high-quality video calling.
+com.google.android.apps.turbo # Turbo apps for optimized performance.
+com.google.android.apps.youtube.music # Music streaming app integrated with YouTube.
+com.google.android.as # Google Assistant for hands-free help and smart home control.
+com.google.android.configupdater # Updates device configurations seamlessly.
+com.google.android.feedback # Allows users to submit feedback about Google services.
+com.google.android.googlequicksearchbox # Quick access to Google Search.
+com.google.android.onetimeinitializer # Handles one-time setup tasks during device activation.
+com.google.android.partnersetup # Assists in partner service setup for devices.
+com.google.android.projection.gearhead # Provides projection services for connected devices.
+com.google.android.syncadapters.calendar # Synchronizes calendar data across devices.
+com.google.android.syncadapters.contacts # Syncs contacts data for consistency.
+com.google.android.videos # Platform for streaming Google Play Movies & TV.
+com.google.android.youtube # Official YouTube app for streaming videos.
+com.google.audio.hearing.visualization.accessibility.scribe # Accessibility service for visualizing audio content.
+
+## Samsung Specific
+com.samsung.android.app.settings.bixby # Manage settings for Bixby, Samsung's virtual assistant.
+com.samsung.android.bixby.agent # Core services that power the Bixby assistant.
+com.samsung.android.bixby.agent.dummy # Placeholder Bixby agent for testing purposes.
+com.samsung.android.bixby.service # Manages background processes for Bixby functionalities.
+com.samsung.android.bixby.wakeup # Activates Bixby via voice commands.
+com.samsung.android.app.camera.sticker.facearavatar.preload # Preloads AR stickers for camera use.
+com.samsung.android.app.routines # Automates tasks and routines with Bixby Routines.
+com.samsung.android.app.sbrowseredge # Samsung Internet browser with Edge features.
+com.samsung.android.ardrawing # Augmented Reality drawing app for creative expression.
+com.samsung.android.aremoji # Create and customize AR emojis for messaging.
+com.samsung.android.aremojieditor # Editor for personalizing AR emoji designs.
+com.samsung.android.arzone # Central hub for all augmented reality experiences on Samsung devices.
+com.samsung.android.livestickers # App for creating and sharing live stickers.
+com.samsung.android.scan3d # 3D scanning application for capturing real-world objects.
+com.samsung.android.service.peoplestripe # Enhances contact interactions with the People Stripe service.
+com.samsung.android.smartcallprovider # Manages smart calling features for enhanced communication.
+com.samsung.android.stickercenter # Central repository for all sticker packs and customization.
+com.samsung.android.visionarapps # Explore AR applications focused on visual experiences.
+com.samsung.desktopsystemui # User interface designed for Samsung desktop mode.
+com.samsung.systemui.bixby2 # System UI components specifically for Bixby 2.
+com.sec.android.app.pink # A specialized app for managing Pink-themed features.
+com.sec.android.mimage.avatarstickers # Avatar stickers app for personal expression.
+
+## Samsung Generic
+android.autoinstalls.config.samsung # Configuration for automatic app installations on Samsung devices.
+com.android.apps.tag # Tagging application for easy organization of files and content.
+com.android.bookmarkprovider # Provides bookmark management services.
+com.android.calllogbackup # Backs up call logs for easy restoration.
+com.android.cts.ctsshim # CTS shim for testing compliance and functionality.
+com.android.cts.priv.ctsshim # Private CTS shim for enhanced testing protocols.
+com.android.dynsystem # Dynamic system service for adaptive configurations.
+com.android.egg # Fun Easter egg app for playful surprises.
+com.android.emergency # Quick access to emergency services and contacts.
+com.android.providers.calendar # Calendar data provider for managing events and schedules.
+com.android.providers.partnerbookmarks # Partner bookmarks provider for collaboration and sharing.
+com.android.providers.userdictionary # User dictionary provider for personalized word suggestions.
+com.android.wallpaperbackup # Service for backing up wallpaper settings and choices.
+com.diotek.sec.lookup.dictionary # Dictionary lookup service for language support.
+com.google.android.cellbroadcastreceiver # Receives emergency cell broadcasts for public safety.
+com.google.android.setupwizard # Step-by-step setup guide for new Android devices.
+com.samsung.aasaservice # ASA service for managing Samsung accessories.
+com.samsung.accesory # Accessory management service for connected devices.
+com.samsung.android.accessibility.talkback # TalkBack service for visually impaired users.
+com.samsung.android.aircommandmanager # Manages Air Command features for S Pen users.
+com.samsung.android.allshare.service.mediashare # Media sharing service for seamless content sharing.
+com.samsung.android.app.ledbackcover # Controls LED notifications for back covers.
+com.samsung.android.app.mirrorlink # MirrorLink service for connecting to vehicle infotainment systems.
+com.samsung.android.app.omcagent # OMC agent service for managing device configuration.
+com.samsung.android.app.reminder # Reminder app for organizing tasks and events.
+com.samsung.android.app.sharelive # Live sharing service for real-time content sharing.
+com.samsung.android.app.simplesharing # Simplifies sharing content between devices.
+com.samsung.android.app.social # Integrates social media features for easy sharing.
+com.samsung.android.app.spage # Smart page for quick access to apps and services.
+com.samsung.android.app.tips # Tips and tricks app for maximizing device usage.
+com.samsung.android.app.watchmanagerstub # Watch manager placeholder for wearables.
+com.samsung.android.authfw # Authentication framework for secure access.
+com.samsung.android.aware.service # Aware service for location-based notifications and actions.
+com.samsung.android.beaconmanager # Manages beacon connections for proximity-based interactions.
+com.samsung.android.brightnessbackupservice # Backs up brightness settings across devices.
+com.samsung.android.calendar # Samsung’s calendar app for scheduling and event management.
+com.samsung.android.camerasdkservice # SDK service for camera app development.
+com.samsung.android.cameraxservice # Camera X service for enhanced photography features.
+com.samsung.android.cidmanager # Manages customer ID (CID) settings for services.
+com.samsung.android.cmfa.framework # Framework for managing CMFA functionalities.
+com.samsung.android.coldwalletservice # Cold wallet service for secure cryptocurrency storage.
+com.samsung.android.da.daagent # Device administration agent for managing device policies.
+com.samsung.android.digitalkey # Digital key service for secure access and management.
+com.samsung.android.dqagent # Device quality assessment agent.
+com.samsung.android.drivelink.stub # Stub service for Drive Link connectivity.
+com.samsung.android.dynamiclock # Manages dynamic lock features for security.
+com.samsung.android.easysetup # Simplifies device setup and configuration.
+com.samsung.android.fast # High-performance services for swift operations.
+com.samsung.android.fmm # Find My Mobile service for locating lost devices.
+com.samsung.android.forest # Engaging app for productivity and focus.
+com.samsung.android.game.gamehome # Central hub for gaming activities on Samsung devices.
+com.samsung.android.game.gametools # Tools and features to enhance gaming experience.
+com.samsung.android.game.gos # Game Optimizing Service for improved performance.
+com.samsung.android.hdmapp # HDM application for device management.
+com.samsung.android.icecone # Icecone service for enhanced functionality.
+com.samsung.android.ipsgeofence # Geofence service for location-based actions.
+com.samsung.android.kidsinstaller # Installer for Kids Mode on Samsung devices.
+com.samsung.android.knox.pushmanager # Manages push notifications within the Knox environment.
+com.samsung.android.location # Location services for GPS and geolocation features.
+com.samsung.android.mapsagent # Maps agent for managing location-based services.
+com.samsung.android.mateagent # Agent service for device pairing and management.
+com.samsung.android.mcfserver # Server component for managing MCF functionalities.
+com.samsung.android.mdecservice # MDEC service for data encryption and management.
+com.samsung.android.mdm # Mobile device management service for enterprise solutions.
+com.samsung.android.mdx # MDX service for managing device experiences.
+com.samsung.android.mdx.kit # MDX development kit for creating device applications.
+com.samsung.android.messaging # Messaging app for SMS and multimedia communication.
+com.samsung.android.mobileservice # Comprehensive management for mobile services.
+com.samsung.android.net.wifi.wifiguider # WiFi guide service for optimal connectivity.
+com.samsung.android.oneconnect # One Connect service for seamless device integration.
+com.samsung.android.rubin.app # Rubin app for device enhancement and features.
+com.samsung.android.samsungpass # Samsung Pass for secure authentication and password management.
+com.samsung.android.samsungpassautofill # Autofill service for Samsung Pass features.
+com.samsung.android.samsungpositioning # Samsung's positioning service for location accuracy.
+com.samsung.android.scloud # Cloud service for file storage and backup.
+com.samsung.android.sdm.config # Configuration service for Samsung device management.
+com.samsung.android.securitylogagent # Logs security events for monitoring and reporting.
+com.samsung.android.service.tagservice # Tag service for managing tags on devices.
+com.samsung.android.shortcutbackupservice # Backs up shortcuts for easy recovery.
+com.samsung.android.sm.devicesecurity # Device security management service.
+com.samsung.android.sm.policy # Enforces device policy settings for security compliance.
+com.samsung.android.smartcallprovider # Provider for advanced smart calling features.
+com.samsung.android.smartface # Smart face recognition for enhanced security.
+com.samsung.android.smartmirroring # Mirroring service for sharing screens with other devices.
+com.samsung.android.smartswitchassistant # Assists in transferring data between devices.
+com.samsung.android.spayfw # Framework for Samsung Pay transactions and management.
+com.samsung.android.svcagent # General service agent for managing background processes.
+com.samsung.android.svoiceime # S Voice keyboard for voice input and control.
+com.samsung.android.tadownloader # TA downloader for app and service management.
+com.samsung.android.tapack.authfw # Authentication framework for Tapack services.
+com.samsung.android.themecenter # Customization hub for themes and UI personalization.
+com.samsung.android.themestore # Store for downloading themes and UI enhancements.
+com.samsung.android.voc # Voice-activated control service for device management.
+com.samsung.clipboardsaveservice # Saves clipboard content for easy access.
+com.samsung.crane # Crane service for advanced functionalities.
+com.samsung.faceservice # Face recognition service for secure access.
+com.samsung.gamedriver.S11MaliG77 # Game driver service for optimized graphics performance.
+com.samsung.gpuwatchapp # Monitors GPU performance for gaming and applications.
+com.samsung.ipservice # Internet Protocol service for network management.
+com.samsung.klmsagent # Key License Management System (KLMS) agent for secure key handling.
+com.samsung.oda.service # Over-the-air (OTA) update service.
+com.samsung.safetyinformation # Provides safety information and guidelines for device use.
+com.samsung.sait.sohservice # SOH service for health monitoring.
+com.samsung.sec.android.application.csc # CSC application for customizing Samsung device features.
+com.samsung.sec.android.teegris.tui_service # TEEGRIS service for secure transactions.
+com.samsung.sree # SREE service for enhanced functionalities.
+com.samsung.storyservice # Manages story features for content sharing and creation.
+com.samsung.ucs.agent.boot # Boot agent for managing the UCS environment.
+com.sec.android.app.apex # Apex app for device management and customization.
+com.sec.android.app.applinker # Links applications for easier access and integration.
+com.sec.android.app.billing # Manages billing processes for apps and services.
+com.sec.android.app.chromecustomizations # Customizations for Chrome on Samsung devices.
+com.sec.android.app.DataCreate # Data creation application for managing content.
+com.sec.android.app.myfiles # File management app for organizing documents and media.
+com.sec.android.app.ocrservice # Optical character recognition service for text scanning.
+com.sec.android.app.parser # Handles data parsing for applications.
+com.sec.android.app.personalization # Personalization service for customizing device experiences.
+com.sec.android.app.popupcalculator # Popup calculator app for quick calculations.
+com.sec.android.app.ringtoneBR # Manages ringtone settings and customizations.
+com.sec.android.app.samsungapps # Manager for Samsung app downloads and updates.
+com.sec.android.app.sbrowser # Samsung Internet browser with advanced features.
+com.sec.android.app.SecSetupWizard # Setup wizard for Samsung device initialization.
+com.sec.android.app.setupwizardlegalprovider # Legal provider for setup wizard processes.
+com.sec.android.app.shealth # Samsung Health app for tracking fitness and wellness.
+com.sec.android.cover.ledcover # Manages LED cover notifications for Samsung devices.
+com.sec.android.daemonapp # Daemon service for background processes.
+com.sec.android.diagmonagent # Diagnostic monitoring agent for system health.
+com.sec.android.easyMover # Facilitates easy data transfer between devices.
+com.sec.android.easyMover.Agent # Agent service for managing easy mover processes.
+com.sec.android.emergencylauncher # Emergency launcher for quick access to essential services.
+com.sec.android.emergencymode.service # Manages emergency mode features for urgent situations.
+com.sec.android.preloadinstaller # Installer for preloaded applications.
+com.sec.android.provider.emergencymode # Provider for managing emergency mode functionalities.
+com.sec.android.sdhms # SDHMS service for secure data handling.
+com.sec.android.sdk.health # Health SDK for app developers focusing on wellness.
+com.sec.android.service.health # Health service for tracking fitness and health data.
+com.sec.android.soagent # SO agent for managing secure operations.
+com.sec.android.systemupdate # Manages system updates for device software.
+com.sec.android.uibcvirtualsoftkey # Virtual soft key interface for improved navigation.
+com.sec.android.widgetapp.easymodecontactswidget # Easy mode contacts widget for simple access.
+com.sec.android.widgetapp.webmanual # Web manual widget for quick access to online resources.
+com.sec.bcservice # BC service for managing background connections.
+com.sec.enterprise.mdm.services.simpin # Enterprise MDM service for security management.
+com.sec.location.nsflp2 # Location services for advanced geolocation.
+com.sec.mhs.smarttethering # Smart tethering service for seamless internet sharing.
+com.sec.mldapchecker # MLDAP checker for network management.
+com.sec.modem.settings # Modem settings service for network configuration.
+com.sec.samsung.advp.imssettings # IMS settings app for managing VoIP services.
+com.sec.spp.push # SPP push service for managing notifications.
+com.sec.sve # SVE service for enhanced device functionalities.
+com.skms.android.agent # SKMS agent for secure key management.
+com.wssyncmldm # WSSyncML DM service for device management and synchronization.
+
+## Samsung Knox
+com.samsung.android.knox.containeragent # Manages secure containers for app separation.
+com.samsung.android.knox.analytics.uploader # Uploads analytics data from Knox environments.
+com.samsung.android.knox.attestation # Provides attestation for device security compliance.
+com.samsung.android.knox.containercore # Core services for managing Knox containers.
+com.samsung.android.bbc.bbcagent # BBC agent for integrating Knox services.
+com.samsung.knox.keychain # Keychain service for secure storage of credentials.
+com.samsung.knox.securefolder # Secure Folder for isolating sensitive apps and data.
+com.samsung.ucs.agent.ese # Agent service for managing enterprise solutions.
+com.android.managedprovisioning # Service for managing device provisioning in corporate settings.
+com.knox.vpn.proxyhandler # VPN proxy handler for secure network connections.
+com.sec.enterprise.knox.attestation # Enterprise-level attestation for enhanced security.
+com.sec.enterprise.knox.cloudmdm.smdms # Enterprise cloud MDM service

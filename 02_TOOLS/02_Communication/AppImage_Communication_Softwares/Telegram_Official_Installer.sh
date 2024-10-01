@@ -1,0 +1,65 @@
+#!/bin/sh
+
+########################################################################
+# VISIT: https://github.com/telegramdesktop/tdesktop
+# SCRIPT CREDITS: https://portable-linux-apps.github.io/
+# 1. Make it executable:
+# $ sudo chmod +x ./file.sh
+# 2. Then run
+# $ sudo bash ./file.sh
+########################################################################    
+
+APP=telegram
+REPO="telegramdesktop/tdesktop"
+
+# CREATE THE FOLDER
+mkdir /opt/$APP
+cd /opt/$APP
+
+# ADD THE REMOVER
+echo '#!/bin/sh' >> /opt/$APP/remove
+echo "rm -R -f /usr/share/applications/AM-$APP.desktop /opt/$APP /usr/local/bin/$APP" >> /opt/$APP/remove
+chmod a+x /opt/$APP/remove
+
+# DOWNLOAD THE ARCHIVE
+mkdir tmp
+cd ./tmp
+
+version=$(wget -q https://api.github.com/repos/$REPO/releases -O - | grep -w -v i386 | grep -w -v i686 | grep -w -v aarch64 | grep -w -v arm64 | grep -w -v armv7l | grep browser_download_url | grep -i "tar.xz" | cut -d '"' -f 4 | head -1)
+wget $version
+echo "$version" >> /opt/$APP/version
+cd ..
+tar xf ./tmp/*tar.xz -C ./tmp/ && mv ./tmp/*/* .
+rm -R -f ./tmp
+
+# LINK
+ln -s /opt/$APP/Telegram /usr/local/bin/$APP
+
+# LAUNCHER
+echo "[Desktop Entry]
+Version=1.0
+Name=Telegram Desktop
+Comment=Official desktop version of Telegram messaging app
+TryExec=$APP
+Exec=$APP -- %u
+Icon=/opt/$APP/icons/$APP
+Terminal=false
+StartupWMClass=TelegramDesktop
+Type=Application
+Categories=Chat;Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;
+Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
+X-GNOME-UsesNotifications=true" >> /usr/share/applications/AM-$APP.desktop
+
+# ICON
+mkdir icons
+wget https://web.telegram.org/k/assets/img/apple-touch-icon.png -O ./icons/$APP  2> /dev/null
+
+# CHANGE THE PERMISSIONS
+currentuser=$(who | awk '{print $1}')
+chown -R $currentuser /opt/$APP
+
+# MESSAGE
+echo "
+ $APP is provided by https://github.com/$(echo $REPO | sed 's:/[^/]*$::')
+"

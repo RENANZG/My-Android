@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram SimpleX Session and Signal</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table, th, td {
+      border: 1px solid #dddddd;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Comparison: <a href="https://telegram.org" target="_blank">Telegram</a>, <a href="https://simplex.chat" target="_blank">SimpleX</a>, <a href="https://getsession.org" target="_blank">Session</a>, and <a href="https://signal.org" target="_blank">Signal</a></h1>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th><a href="https://telegram.org" target="_blank">Telegram</a></th>
+        <th><a href="https://simplex.chat" target="_blank">SimpleX</a></th>
+        <th><a href="https://getsession.org" target="_blank">Session</a></th>
+        <th><a href="https://signal.org" target="_blank">Signal</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Protocol Type</strong></td>
+        <td>MTProto</td>
+        <td>Custom (Double Ratchet)</td>
+        <td>LibP2P</td>
+        <td>Signal Protocol (Double Ratchet)</td>
+      </tr>
+      <tr>
+        <td><strong>Primary Use Case</strong></td>
+        <td>General messaging, media sharing</td>
+        <td>Privacy-focused messaging</td>
+        <td>Anonymous, decentralized messaging</td>
+        <td>Privacy-focused messaging</td>
+      </tr>
+      <tr>
+        <td><strong>Encryption</strong></td>
+        <td>Client-server encryption (default), End-to-end encryption (Secret Chats)</td>
+        <td>End-to-end encryption (default)</td>
+        <td>End-to-end encryption (default)</td>
+        <td>End-to-end encryption (default)</td>
+      </tr>
+      <tr>
+        <td><strong>Decentralization</strong></td>
+        <td>Centralized servers</td>
+        <td>Decentralized communication nodes</td>
+        <td>Fully decentralized (no central servers)</td>
+        <td>Centralized servers</td>
+      </tr>
+      <tr>
+        <td><strong>Identity Management</strong></td>
+        <td>Phone number-based</td>
+        <td>Username-based (no phone number required)</td>
+        <td>Anonymous (no phone number or email required)</td>
+        <td>Phone number-based</td>
+      </tr>
+      <tr>
+        <td><strong>Message Persistence</strong></td>
+        <td>Cloud storage (optional local storage)</td>
+        <td>Client-side only (no cloud storage)</td>
+        <td>Client-side only (no cloud storage)</td>
+        <td>Client-side only (optional backup)</td>
+      </tr>
+      <tr>
+        <td><strong>Group Chats</strong></td>
+        <td>Up to 200,000 members</td>
+        <td>Supported</td>
+        <td>Supported</td>
+        <td>Up to 1,000 members</td>
+      </tr>
+      <tr>
+        <td><strong>File Sharing</strong></td>
+        <td>Supports large files (up to 2GB)</td>
+        <td>Limited to client-side capacity</td>
+        <td>Limited to client-side capacity</td>
+        <td>Supports files up to 100MB</td>
+      </tr>
+      <tr>
+        <td><strong>Metadata Protection</strong></td>
+        <td>Limited (metadata stored on servers)</td>
+        <td>Strong (no central server metadata storage)</td>
+        <td>Strong (no central server metadata storage)</td>
+        <td>Strong (minimizes metadata collection)</td>
+      </tr>
+      <tr>
+        <td><strong>Open Source</strong></td>
+        <td>Partially (client is open-source, server is proprietary)</td>
+        <td>Fully open-source</td>
+        <td>Fully open-source</td>
+        <td>Fully open-source</td>
+      </tr>
+      <tr>
+        <td><strong>Cross-Platform Availability</strong></td>
+        <td>iOS, Android, Windows, macOS, Linux, Web</td>
+        <td>iOS, Android, Linux, Web</td>
+        <td>iOS, Android, Windows, macOS, Linux</td>
+        <td>iOS, Android, Windows, macOS, Linux</td>
+      </tr>
+      <tr>
+        <td><strong>License</strong></td>
+        <td>Custom (Telegram license)</td>
+        <td>AGPLv3</td>
+        <td>GPLv3</td>
+        <td>GPLv3</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

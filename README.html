@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile</title>
+<style>
+  /* Generic style */
+  body {
+       font-family: Arial, sans-serif;
+       line-height: 1.6;
+       margin: 5em;
+       max-width: 800px; /* Limit screen maximum width */
+       margin-left: auto;
+       margin-right: auto;
+  }
+   h1, h2, h3, h4, h5, h6 {
+       font-weight: bold;
+       margin-bottom: 0.5em;
+  }
+   h1 {
+       font-size: 2.5em;
+       line-height: 1.2;
+  }
+   h2 {
+       font-size: 2em;
+       line-height: 1.3;
+  }
+   h3 {
+       font-size: 1.8em;
+       line-height: 1.4;
+  }
+   p {
+       margin: 1em 0;
+       text-align: justify; /* Justify text for better readability */
+  }
+   a {
+       color: #007bff;
+       text-decoration: none;
+  }
+   a:hover {
+       text-decoration: underline;
+  }
+   blockquote {
+       margin: 1em 0;
+       padding: 0 1em;
+       border-left: 3px solid #ccc;
+  }
+   blockquote cite {
+       font-style: italic;
+  }
+   img {
+       max-width: 100%;
+       height: auto;
+       display: block;
+       margin: 1em 0;
+  }
+   pre {
+       background-color: #f8f9fa;
+       border: 1px solid #ccc;
+       padding: 1em;
+       overflow: auto;
+       white-space: pre-wrap; /* Wrap long lines in preformatted text */
+  }
+   code {
+       font-family: Consolas, Monaco, 'Andale Mono', monospace;
+       font-size: 0.9em;
+  }
+  /* Tables */
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-bottom: 1em;
+  }
+   th, td {
+       border: 1px solid #ccc;
+       padding: 0.8em;
+  }
+   th {
+       background-color: #f2f2f2;
+  }
+  /* Lists */
+   ul, ol {
+       margin: 1em 0;
+       padding-left: 2em;
+  }
+  /* Miscellaneous */
+   sup {
+       vertical-align: super;
+       font-size: smaller;
+  }
+   sub {
+       vertical-align: sub;
+       font-size: smaller;
+  }
+   @media screen and (max-width: 600px) {
+      /* Adjustments for smaller screens */
+       body {
+           font-size: 16px; /* Font size for better readability */
+           line-height: 1.5;
+           margin: 0.5em;
+      }
+       h1 {
+           font-size: 2em;
+      }
+       h2 {
+           font-size: 1.8em;
+      }
+       h3 {
+           font-size: 1.6em;
+      }
+       th, td {
+           padding: 0.6em;
+      }
+       pre {
+           padding: 0.5em;
+      }
+  }
+</style>
+</head>
+<body>
+
+<h1>📱🦊🔒 Android Mobile 🔒🦊📱</h1>
+
+<blockquote><h3>"No matter who you are, every day of your life, you're sitting in a database just ready to be looked at." (Edward Snowden)</h3></blockquote>
+
+<p align="center"><img src=".data/telephone_1986_-_andy_warhol_830px.png" title="Telephone (1986) - Andy Warhol"/></p>
+
+  <!-- ################################################# -->
+  <hr>
+
+  <h3>HARDENING REFERENCES</h3>
+
+  <table>
+  <tr>
+   <td align="left" valign="top" style="width: 50%">
+   <a href="https://guardianproject.info" target="_blank">• Guardian Project</a><br>
+   <a href="https://github.com/guardianproject" target="_blank">• Guardian Project - GitHub</a><br>
+   <a href="https://kicksecure.com/wiki/Mobile_Phone_Security" target="_blank">• Whonix - Mobile Devices Privacy and Security</a><br>
+    <a href="https://kicksecure.com/wiki/Mobile_Operating_System_Comparison">• Whonix - Mobile Operating System Comparison</a><br>
+   <a href="https://whonix.org/wiki/Tips_on_Remaining_Anonymous#Avoid_(Mobile)_Phone_Verification_(Use_only_with_caution)" target="_blank">• Whonix - Avoid (Mobile) Phone Verification (Use only with caution)</a><br>
+   <a href="https://source.android.com/docs/core/architecture/kernel/hardening" target="_blank">• Android - Kernel Hardening</a><br>
+   <a href="https://cisecurity.org/benchmark/google_android" target="_blank">• Google - Android CIS Benchmark</a><br>
+   <a href="https://mas.owasp.org" target="_blank">• OWASP - Mobile Application Security</a><br>
+   <a href="https://attack.mitre.org/techniques/mobile/" target="_blank">• MITRE ATT&CK - Mobile Techniques</a><br>
+    </td>
+    <td align="left" valign="top" style="width: 50%">
+    <a href="https://public.cyber.mil/stigs/downloads/?_dl_facet_stigs=mobility" target="_blank" rel="noopener noreferrer">• DoD Cyber Exchange - Security Technical Implementation Guides (STIGs)</a><br>
+    <a href="https://blog.torproject.org/mission-improbable-hardening-android-security-and-privacy" target="_blank">• Mission Improbable: Hardening Android for Security And Privacy</a><br>
+    <a href="https://en.wikipedia.org/wiki/EncroChat" target="_blank">• EncroChat - Wikipedia</a><br>
+    <a href="https://theintercept.com/2021/07/27/pegasus-nso-spyware-security" target="_blank">• HOW TO DEFEND YOURSELF AGAINST THE POWERFUL NEW NSO SPYWARE ATTACKS DISCOVERED AROUND THE WORLD</a><br>
+    <a href="https://citizenlab.ca/2023/04/nso-groups-pegasus-spyware-returns-in-2022" target="_blank">• NSO Group’s Pegasus Spyware Returns in 2022 with a Trio of iOS 15 and iOS 16 Zero-Click Exploit Chains</a><br>
+    <a href="" target="_blank"></a><br>
+    </td>
+  </tr>
+  </table>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>CUSTOM ROMS</h3>
+
+<strong><a href="https://www.mobian-project.org/">Mobian</a></strong> <a href="https://www.wiki.debian.org/Mobian/Devices">(Supported Devices)</a> - A Debian derivative for mobile devices</br>
+<strong><a href="https://www.ubuntu-touch.io/">Ubuntu-Touch</a></strong> <a href="https://www.devices.ubuntu-touch.io/">(Supported Devices)</a> - We are building privacy and freedom focussed mobile software</br>
+<strong><a href="https://www.grapheneos.org">GraphenoOS</a></strong> <a href="https://www.grapheneos.org/faq#supported-devices">(Supported Devices)</a> - Security and privacy focused mobile OS</br>
+<strong><a href="https://www.postmarketos.org/">postmarketOS</a></strong> <a href="https://www.wiki.postmarketos.org/wiki/Devices">(Supported Devices)</a> - A real Linux distribution for phones</br>
+<strong><a href="https://www.calyxos.org">CalyxOS</a></strong> <a href="https://www.calyxos.org/">(Supported Devices)</a> - Private by Design</br>
+<strong><a href="https://www.divestos.org/">DivestOS</a></strong> <a href="https://www.divestos.org/pages/devices">(Supported Devices)</a> - A mobile operating system divested from the norm</br>
+<strong><a href="https://www.wiki.lineageos.org/">LineageOS</a></strong> <a href="https://www.projectelixiros.com/download">(Supported Devices)</a> - A free and open-source operating system for various devices</br>
+<strong><a href="https://www.projectelixiros.com">Project Elixir</a></strong> <a href="https://www.kali.org/get-kali/#kali-mobile">(Supported Devices)</a> - Unleash Innovation</br>
+<strong><a href="https://www.replicant.us/">Replicant</a></strong> <a href="https://www.redmine.replicant.us/projects/replicant/wiki/DeviceStatus">(Supported Devices)</a> - A fully free Android distribution running on several devices</br>
+<strong><a href="https://www.kali.org/get-kali/#kali-mobile">Kali Mobile</a></strong> <a href="https://www.kali.org/get-kali/#kali-mobile">(Supported Devices)</a> - Kali NetHunter is a free &amp; Open-source Mobile Penetration Testing Platform</br>
+<strong><a href="https://puri.sm/products/liberty-phone/">Liberty Phone</a> - The Freedom and Privacy plus Made in the USA Electronics with a Secure Supply Chain.</br>
+<strong><a href="https://www.github.com/climberhunt/PiPhone">PiPhone</a></strong> - A DIY cellphone based on Raspberry Pi</br>
+
+<h4>Other custom roms:</h4>
+
+Crdroid - https://www.crdroid.net/</br>
+Paranoid Android - https://www.paranoidandroid.co/</br>
+ResurrectionRemix - https://www.github.com/ResurrectionRemix</br>
+OmniROM - https://www.omnirom.org/</br>
+Evolution-x - https://www.evolution-x.org/</br>
+Droidontime- https://www.droidontime.com/</br>
+Projectsakura - https://www.sourceforge.net/projects/projectsakura/</br>
+Corvus-os - https://www.sourceforge.net/projects/corvus-os/</br>
+Havoc-os - https://www.sourceforge.net/projects/havoc-os/</br>
+Revengeos - https://www.sourceforge.net/projects/revengeos/</br>
+Superioros - https://www.sourceforge.net/projects/superioros/</br>
+AospExtended - https://www.github.com/AospExtended</br>
+Arrowos - https://www.arrowos.net/</br>
+Blissroms - https://www.blissroms.com/</br>
+Derpfest - https://www.derpfest.org/</br>
+Syberiaos - https://www.syberiaos.com/</br>
+Dirtyunicorns - https://www.dirtyunicorns.com/</br>
+Aosip - http://aosip.weebly.com/</br>
+Xiaomifirmwareupdater - https://www.xiaomifirmwareupdater.com/miui/</br>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+${\color{Red}\textbf{WARNING! BACKDOORS EVERYWHERE!}}$
+
+<h3>BACKDOORS EVERYWHERE</h3>
+
+<a href="https://youtube.com/watch?v=aN9MzWw9G3o">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DaN9MzWw9G3o" alt="Did Apple Create This Backdoor for the NSA?" title="Did Apple Create This Backdoor for the NSA?"/>
+</a>
+<a href="https://youtube.com/watch?v=vg9ETJkeaTE">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3Dvg9ETJkeaTE" alt="Leaked: The Feds Can See Your Notifications" title="Leaked: The Feds Can See Your Notifications"/>
+</a><br>
+
+<a href="https://youtu.be/VonHAsY4-VA">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
+</a>
+<a href="https://youtube.com/watch?v=lfOgm1IcBd0">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DlfOgm1IcBd0" alt="The Spy in Your Phone | Al Jazeera World" title="The Spy in Your Phone | Al Jazeera World"/>
+</a>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>MOBILE INSECURITY</h3>
+
+<h4>The GSM network is highly traceable; even a turned-off cell phone is no longer safe.</h4>
+
+<h4>Mobile security: Avoid use mobile devices, consider using a Faraday Bag.</h4>
+
+   <p>A Faraday bag is a simple, portable enclosure that blocks electromagnetic fields, preventing electronic devices inside from sending or receiving signals. It's useful for protecting your devices from tracking, hacking, or unwanted communication. Below is a step-by-step guide to making your own Faraday bag.</p>
+
+   <h5>Materials Needed</h5>
+<ul>
+    <li>Aluminum foil (heavy-duty preferred)
+        <ul>
+            <li>Alternative: Copper or nickel mesh, which offers enhanced shielding and durability.</li>
+            <li>Alternative: Conductive metallic fabric or Faraday fabric for a more durable and flexible bag.</li>
+        </ul>
+    </li>
+    <li>Plastic Ziploc bag or other durable, sealable plastic bag
+        <ul>
+            <li>Alternative: Mylar bag or any other airtight, non-conductive pouch for better sealing.</li>
+        </ul>
+    </li>
+    <li>Duct tape or conductive tape (for reinforcement and sealing edges)
+        <ul>
+            <li>Alternative: Aluminum or copper tape for a more secure, conductive seal.</li>
+        </ul>
+    </li>
+    <li>Scissors (for cutting foil or fabric)</li>
+    <li>Optional: Velcro strips or zip ties (for creating a reusable closure)</li>
+</ul>
+
+<!-- ################################## -->
+<hr>
+
+<h4>Your cell phone is a walking spy, whether in your pocket or in the bathroom...</h4>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Technology</th>
+            <th>Decentralization</th>
+            <th>Anonymity</th>
+            <th>Resilience</th>
+            <th>Accessibility</th>
+            <th>Speed</th>
+            <th>Challenges</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GSM (Traditional Mobile Networks)</td>
+            <td>Low</td>
+            <td>Low</td>
+            <td>Low (easily surveilled, controlled)</td>
+            <td>High (widely accessible)</td>
+            <td>High</td>
+            <td>Susceptible to government surveillance and control, requires centralized infrastructure.</td>
+        </tr>
+        <tr>
+            <td>Private GSM Networks</td>
+            <td>Medium</td>
+            <td>Medium</td>
+            <td>Medium (localized, difficult to monitor)</td>
+            <td>Low (requires setup and maintenance)</td>
+            <td>High</td>
+            <td>Limited range, regulatory challenges, expensive setup.</td>
+        </tr>
+        <tr>
+            <td>Satellite Phones</td>
+            <td>Medium</td>
+            <td>Medium</td>
+            <td>Medium (can bypass local networks but still traceable)</td>
+            <td>Low (expensive, regulatory restrictions in some areas)</td>
+            <td>Medium</td>
+            <td>High cost, signal blockage issues, legal restrictions in certain countries.</td>
+        </tr>
+        <tr>
+            <td>LoRa Networks</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td>High (independent of traditional infrastructure)</td>
+            <td>Low (requires specific hardware)</td>
+            <td>Low</td>
+            <td>Limited bandwidth, short range without mesh network, specialized hardware needed.</td>
+        </tr>
+        <tr>
+            <td>Mesh Networks</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td>High (difficult to censor/control)</td>
+            <td>Low to Medium (dependent on community adoption)</td>
+            <td>Medium</td>
+            <td>Requires widespread adoption, potential for limited range without sufficient nodes.</td>
+        <tr>
+            <td>Tor (The Onion Router)</td>
+            <td>High</td>
+            <td>High</td>
+            <td>Medium (can bypass censorship but still dependent on the Internet)</td>
+            <td>Medium (requires technical knowledge)</td>
+            <td>Low</td>
+            <td>Weak end point, slow speeds, requires Internet access, subject to state attempts at blocking.</td>
+        </tr>
+        <tr>
+            <td>Amateur Radio (Ham Radio)</td>
+            <td>High</td>
+            <td>Low to Medium</td>
+            <td>High (operates independently of state networks)</td>
+            <td>Low (requires license, specialized equipment)</td>
+            <td>Low to Medium</td>
+            <td>Requires technical knowledge, legal restrictions, potential for interference.</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- ################################## -->
+<hr>
+
+<h3>Basic Security Tips and Recommendations:</h3>
+
+<p><em>For intermediate security, it's no military-grade security.</em></p>
+
+<ul>
+    <li>Be aware of the physical security of your device; if it's seized, immediate access may be possible with Cellebrite despite all protections .</li>
+    <li>Keep your device's operating system and apps up to date to mitigate known vulnerabilities.</li>
+    <li>Use full-disk encryption to protect data at rest. Both iOS and Android offer this feature.</li>
+    <li>Enable a strong, alphanumeric password rather than a simple PIN or pattern.</li>
+    <li>Consider using a secondary device for sensitive communication that you do not use for other activities.</li>
+    <li>Consider using encrypted messaging apps like Session, Simplex or Signal, which offer end-to-end encryption.</li>
+    <li>Use a VPN (Virtual Private Network) to obscure your online activities from ISPs and other intermediaries. Your data could be collect by data brokers and selled to government. </li>
+    <li>Disable Wi-Fi, Bluetooth, and GPS when not in use to reduce tracking risks.</li>
+    <li>Regularly check app permissions to ensure no unauthorized access to your location or microphe.</li>
+</ul>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>CELLEBRITE UFED</h3>
+
+<h4>Identifying or Defeating Some Exploits</h4>
+
+<p>Cellebrite's UFED (Universal Forensic Extraction Device) is a powerful tool used by governments to extract data from mobile devices bypassing security features. Understanding the vulnerabilities it exploits can help in securing your devices against such intrusions.</p>
+
+<p><a href="https://github.com/levlesec/lockup" target="_blank">• LockUp: A Repository on GitHub</a></p></li>
+
+<p><strong>Additional References:</strong></p>
+<ul>
+    <li><a href="https://eff.org/deeplinks/2021/06/why-you-should-care-about-end-end-encryption" target="_blank">EFF - Why You Should Care About End-to-End Encryption</a></li>
+    <li><a href="https://wired.com/story/mobile-phone-privacy-security-tips/" target="_blank">Wired - Mobile Phone Privacy and Security Tips</a></li>
+    <li><a href="https://theintercept.com/2015/07/23/new-documents-reveal-how-a-1984-law-allowed-fbi-to-wiretap-every-communication-tech-from-blamers-to-iphone/" target="_blank">The Intercept - The Government's Unfettered Access to Communications</a></li>
+</ul>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>BURNER PHONES</h3>
+
+<p><em>The GSM network is highly traceable, even a turned-off cell phone is no longer safe.</em></p>
+
+<ul>
+  <li><strong>Avoid Reusing SIM Cards or Devices:</strong>
+    <ul>
+      <li>Always use a new SIM card and a new device
+        for each communication session. This prevents the possibility of
+        linking different activities together through the same hardware
+        or SIM.</li>
+    </ul>
+  </li>
+  <li><strong>Avoid Carrying Different Devices Together:</strong>
+    <ul>
+      <li>Never carry your burner phone along with your
+        primary phone or other devices. If you do, the devices can be correlated
+        through proximity tracking or geolocation data.</li>
+    </ul>
+  </li>
+  <li><strong>Avoid Creating Physical Associations Between Different Devices:</strong>
+    <ul>
+      <li>Use different locations when using different
+        devices. Do not use a burner phone in places you frequently visit
+        or where your primary phone is usually active. This prevents linking
+        the burner to your personal identity.</li>
+    </ul>
+  </li>
+  <li><strong>Avoid Calling or Being Called by the Same Contacts on Different Devices:</strong>
+    <ul>
+      <li>Make sure that your burner phone is used to
+        contact individuals who do not have your primary phone number.
+        This helps avoid linking different devices through shared contacts.</li>
+    </ul>
+  </li>
+  <li><strong>Use Cash or Anonymous Payment Methods:</strong>
+    <ul>
+      <li>Purchase burner phones and SIM cards with cash
+        or through anonymous payment methods. Avoid using credit cards
+        or any payment method that can be traced back to you.</li>
+    </ul>
+  </li>
+  <li><strong>Buy Devices Far from Home:</strong>
+    <ul>
+      <li>Purchase your burner phone and SIM card from
+        locations far from where you live or frequently visit. Avoid places
+        with surveillance cameras that could capture your purchase.</li>
+    </ul>
+  </li>
+  <li><strong>Disable GPS and Location Services:</strong>
+    <ul>
+      <li>Turn off all location services, GPS, and Wi-Fi
+        on the burner phone to reduce the risk of location tracking. If
+        possible, disable or remove the GPS hardware entirely.</li>
+    </ul>
+  </li>
+  <li><strong>Avoid Storing Personal Information:</strong>
+    <ul>
+      <li>Do not store any personal information, contacts,
+        or messages on the burner phone. Use it strictly for the intended
+        temporary purpose and dispose of it afterward.</li>
+    </ul>
+  </li>
+  <li><strong>Use Encrypted Communication Apps:</strong>
+    <ul>
+      <li>When communicating through a burner phone,
+        use encrypted messaging apps like Signal, Session, SimpleX, or
+        Telegram. Be cautious as some apps may still leak metadata.</li>
+    </ul>
+  </li>
+  <li><strong>Be Aware of IMSI Catchers:</strong>
+    <ul>
+      <li>Avoid areas known to have heavy surveillance
+        or where IMSI catchers (devices that mimic cell towers to intercept
+        communications) might be deployed. These can be used to track and
+        intercept burner phone communications.</li>
+    </ul>
+  </li>
+  <li><strong>Practice Good Operational Security (OpSec):</strong>
+    <ul>
+      <li>Develop and maintain strict OpSec habits, such
+        as only turning on the burner phone when necessary, and never using
+        it at home or work. Dispose of the phone after use in a secure
+        manner, such as by dismantling and destroying it.</li>
+    </ul>
+  </li>
+  <li><strong>Remove or Disable Microphones and Cameras:</strong>
+    <ul>
+      <li>Consider physically removing or disabling the
+        phone’s microphones and cameras to prevent audio and video surveillance.
+        Many phones have multiple microphones, often one near the speaker
+        and one near the bottom of the device. These components can be
+        removed or disabled, but doing so may affect the phone's functionality.</li>
+    </ul>
+  </li>
+  <li><strong>Dispose of the Phone Securely:</strong>
+    <ul>
+      <li>After the phone has served its purpose, dispose
+        of it in a way that ensures it cannot be traced back to you. This
+        may involve physically destroying the device or disposing of it
+        in a location far from where you live or work.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Additional References:</strong></p>
+<ul>
+  <li><a href="https://wired.com/story/how-to-use-burner-phone" target="_blank">The Complete Guide to Burner Phones by Wired</a></li>
+  <li><a href="https://eff.org/deeplinks/2016/10/operational-security-activists"
+    target="_blank">Operational Security for Activists by EFF</a></li>
+  <li><a href="https://whonix.org/wiki/Other_Operating_Systems" target="_blank">Whonix - Anonymize Other Operating Systems</a></li>
+  <li><a href="https://privacyinternational.org/guide/imsi-catchers-and-how-they-work"
+    target="_blank">IMSI Catchers and How They Work by Privacy International</a></li>
+  <li><a href="https://schneier.com/blog/archives/2013/04/burner_phones.html"
+    target="_blank">Schneier on Security - Burner Phones</a></li>
+</ul>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>CRYPTOPHONES</h3>
+
+<p>Cryptophones are specialized mobile devices designed to provide secure communication through encryption. One notable example is the Encrochat case, where criminals used highly encrypted phones.</p>
+
+
+https://www.vice.com/en/tag/encrypted-phones/<br>
+
+<p><strong>Tips and Recommendations:</strong></p>
+<ul>
+    <li>Choose cryptophones that have been vetted by reputable cybersecurity experts for potential backdoors or vulnerabilities.</li>
+    <li>Be cautious of the supply chain when purchasing a cryptophone; only buy from trusted vendors.</li>
+    <li>Regularly update the cryptophone's software to protect against newly discovered vulnerabilities.</li>
+    <li>Consider using separate devices for sensitive communication and daily tasks to minimize exposure.</li>
+    <li>Always assume that encrypted communication could eventually be decrypted, so limit the sharing of highly sensitive information.</li>
+</ul>
+
+<p><strong>References:</strong></p>
+<ul>
+    <li><a href="https://xperylab.medium.com/the-dark-phones-encrochat-criminals-are-building-their-own-communication-system-474f3aeef759" target="_blank">Encrochat Case - Criminals Building Their Own Communication System</a></li>
+    <li><a href="https://vice.com/en/article/akdg8p/encrochat-hack-police-arrests-encrypted-phone" target="_blank">Vice - Encrochat Hack and Police Arrests</a></li>
+    <li><a href="https://forbes.com/sites/thomasbrewster/2020/07/02/encrochat-hack-shows-police-can-still-reach-the-darkest-corners-of-the-criminal-web/?sh=1f437a4c17c0" target="_blank">Forbes - Encrochat Hack Shows Police Reach into the Criminal Web</a></li>
+    <li><a href="https://schneier.com/blog/archives/2018/03/ufed_phone_hack.html" target="_blank">Schneier on Security - UFED Phone Hack</a></li>
+    <li><a href="https://securelist.com/forensics-bypassing-device-encryption/93557/" target="_blank">Kaspersky - Forensics and Bypassing Device Encryption</a></li>
+    <li><a href="https://citizenlab.ca/2020/12/guesswork-the-theft-of-encrypted-smartphones-via-government-hacking/" target="_blank">Citizen Lab - The Theft of Encrypted Smartphones via Government Hacking</a></li>
+</ul>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>ANDROID ROOT</h3>
+
+• XDA Forums - https://xdaforums.com</br>
+• Magisk - https://github.com/topjohnwu/Magisk</br>
+• TWRP - https://twrp.me</br>
+• Android Debloater - https://github.com/0x192/universal-android-debloater</br>
+• RootzWiki Forums - https://rootzwiki.com/index</br>
+• Android Central - https://forums.androidcentral.com/</br>
+• Android Forums - https://androidforums.com/</br>
+• PHONEDB - https://phonedb.net/index.php?m=repository&list=rom_update</br>
+• TheUnlockr - https://theunlockr.com/roms/android-roms/</br>
+• SamMobile - https://sammobile.com/</br>
+• r/androidroot - https://reddit.com/r/androidroot</br>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>MOBILE STORE</h3>
+
+• F-droid - https://f-droid.org</br>
+• IzzyOnDroid - https://apt.izzysoft.de/fdroid</br>
+• DivestOS - https://divestos.org</br>
+• Aurora Store - https://auroraoss.com</br>
+
+<p>*Note: https://privacyguides.org/en/android/#f-droid</p>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+<h3>MOBILE SECURITY APPS</h3>
+
+<p><em>For intermediate security, it's no military-grade security.</em></p>
+
+<h4>Sandboxes</h4>
+• Shelter - https://gitea.angry.im/PeterCxy/Shelter#shelter</br>
+• Insular - https://secure-system.gitlab.io/Insular</br>
+
+<h4>Emergency</h4>
+• Wasted - https://f-droid.org/en/packages/me.lucky.wasted</br>
+• Ripple - https://github.com/guardianproject/ripple</br>
+• Find My Device (FMD) - https://f-droid.org/en/packages/de.nulide.findmydevice</br>
+
+<h4>Sanitizers</h4>
+• Extirpater - https://f-droid.org/en/packages/us.spotco.extirpater</br>
+• RandomFileMaker - https://f-droid.org/en/packages/io.github.randomfilemaker</br>
+• WipeFiles - https://github.com/peterhearty/WipeFiles</br>
+
+<h4>Track trackers</h4></br>
+• Exodus - https://github.com/Exodus-Privacy/exodus-android-app</br>
+• Rethink-app - https://github.com/celzero/rethink-app</br>
+
+<h4>Passwords</h4>
+• KeePassDX - https://github.com/Kunzisoft/KeePassDX</br>
+• Proton Pass - https://f-droid.org/en/packages/proton.android.pass.fdroid</br>
+• Aegis - https://github.com/beemdevelopment/Aegis</br>
+• Yubico - https://github.com/Yubico/yubioath-flutter</br>
+
+<h4>Cryptograhy</h4>
+• Encrypt your Android phone - http://howtogeek.com/141953/how-to-encrypt-your-android-phone-and-why-you-might-want-to</br>
+• Cryptomator - https://f-droid.org/en/packages/org.cryptomator.lite</br>
+• Cryptonite (TrueCrypt) - https://code.google.com/p/cryptonite/</br>
+• OpenKeychain (OpenPGP) - https://f-droid.org/en/packages/org.sufficientlysecure.keychain/</br>
+• EDS Lite - https://f-droid.org/packages/com.sovworks.edslite</br>
+• Hash Checker - https://github.com/hash-checker/hash-checker</br>
+• Hash Easily - https://github.com/seoulcodingcafe/HashEasily</br>
+
+<h4>Anon web</h4>
+• InviZible - https://github.com/Gedsh/InviZible</br>
+• Orbot - https://github.com/guardianproject/orbot</br>
+
+<h4>Keyboards</h4>
+• Florisboard (Beta) - https://github.com/florisboard/florisboard</br>
+• AnySoftKeyboard - https://anysoftkeyboard.github.io</br>
+• HackersKeyboard - https://github.com/klausw/hackerskeyboard</br>
+
+<h4>Others</h4>
+• EtchDroid - https://github.com/EtchDroid/EtchDroid</br>
+• Android Faker - https://github.com/Android1500/AndroidFaker</br>
+• Free implementation of Play Services - https://github.com/microg/GmsCore</br>
+• Phones Ref.- https://gsmarena.com</br>
+• Phones Ref.- https://phonescoop.com</br>
+
+• https://github.com/botherder/androidqf</br>
+
+<!-- ################################## -->
+<hr>
+<br>
+
+  <details>
+  <summary>Secure Communication</summary>
+  <br>
+
+  <p>Communicate with friends and family as if you're in a war room.</p>
+
+  <img src="https://github.com/RENANZG/My-Anonymity/blob/main/.data/war_room_dr._strangelove.jpeg"
+  alt="War Room" width="640" height="320" />
+
+  <h5>Session</h5>
+  <ul>
+  <li><a href="https://github.com/oxen-io/session-desktop">Session Desktop</a></li>
+  <li><a href="https://github.com/oxen-io/session-android">Session Android</a></li>
+  <li><a href="https://github.com/GNU-Linux-libre/Awesome-Session-Group-List">Session Group List</a></li>
+  <li><a href="https://arxiv.org/pdf/2002.04609.pdf">Session Paper</a></li>
+  </ul>
+
+  <h5>SimpleX</h5>
+  <ul>
+  <li><a href="https://github.com/simplex-chat/simplex-chat">SimpleX Chat</a></li>
+  </ul>
+
+  <h5>Signal</h5>
+  <ul>
+  <li><a href="https://github.com/signalapp">Signal GitHub</a></li>
+  <li><a href="https://signal.org/android/apk/">Signal APK</a></li>
+  <li><a href="https://community.signalusers.org/t/overview-of-third-party-security-audits/13243">Security Audits Overview</a></li>
+  <li><a href="https://youtube.com/watch?v=QEq2JQ6nzuQ">Signal Did NOT Get Hacked</a></li>
+  </ul>
+
+  <h4>Chats</h4>
+  <img src=".data/C0m4pps.png" alt="Chat Apps" width="640" height="320" />
+
+  <h4>Comparison: Telegram vs SimpleX vs Session</h4>
+
+  <table border="1"e>
+  <thead>
+  <tr>
+  <th>Feature</th>
+  <th>Telegram</th>
+  <th>SimpleX</th>
+  <th>Session</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><strong>Protocol Type</strong></td>
+  <td>MTProto</td>
+  <td>Custom (Double Ratchet)</td>
+  <td>LibP2P</td>
+  </tr>
+  <tr>
+  <td><strong>Primary Use Case</strong></td>
+  <td>General messaging, media sharing</td>
+  <td>Privacy-focused messaging</td>
+  <td>Anonymous, decentralized messaging</td>
+  </tr>
+  <tr>
+  <td><strong>Encryption</strong></td>
+  <td>Client-server encryption (default), End-to-end encryption (Secret
+  Chats)
+  </td>
+  <td>End-to-end encryption (default)</td>
+  <td>End-to-end encryption (default)</td>
+  </tr>
+  <tr>
+  <td><strong>Decentralization</strong></td>
+  <td>Centralized servers</td>
+  <td>Decentralized communication nodes</td>
+  <td>Fully decentralized (no central servers)</td>
+  </tr>
+  <tr>
+  <td><strong>Identity Management</strong></td>
+  <td>Phone number-based</td>
+  <td>Username-based (no phone number required)</td>
+  <td>Anonymous (no phone number or email required)</td>
+  </tr>
+  <tr>
+  <td><strong>Message Persistence</strong></td>
+  <td>Cloud storage (optional local storage)</td>
+  <td>Client-side only (no cloud storage)</td>
+  <td>Client-side only (no cloud storage)</td>
+  </tr>
+  <tr>
+  <td><strong>Group Chats</strong></td>
+  <td>Up to 200,000 members</td>
+  <td>Supported</td>
+  <td>Supported</td>
+  </tr>
+  <tr>
+  <td><strong>File Sharing</strong></td>
+  <td>Supports large files (up to 2GB)</td>
+  <td>Limited to client-side capacity</td>
+  <td>Limited to client-side capacity</td>
+  </tr>
+  <tr>
+  <td><strong>Metadata Protection</strong></td>
+  <td>Limited (metadata stored on servers)</td>
+  <td>Strong (no central server metadata storage)</td>
+  <td>Strong (no central server metadata storage)</td>
+  </tr>
+  <tr>
+  <td><strong>Open Source</strong></td>
+  <td>Partially (client is open-source, server is proprietary)</td>
+  <td>Fully open-source</td>
+  <td>Fully open-source</td>
+  </tr>
+  <tr>
+  <td><strong>Cross-Platform Availability</strong></td>
+  <td>iOS, Android, Windows, macOS, Linux, Web</td>
+  <td>iOS, Android, Linux, Web</td>
+  <td>iOS, Android, Windows, macOS, Linux</td>
+  </tr>
+  <tr>
+  <td><strong>License</strong></td>
+  <td>Custom (Telegram license)</td>
+  <td>AGPLv3</td>
+  <td>GPLv3</td>
+  </tr>
+  </tbody>
+  </table>
+
+  <h4>Communication Protocols</h4>
+
+  <ul>
+  <li>Anonymous Chat, IRC, XMPP in Whonix: <a href="https://whonix.org/wiki/Chat">whonix.org/wiki/Chat</a></li>
+  <li>XMPP vs Matrix vs MQTT: <a href="https://rst.software/blog/xmpp-vs-matrix-vs-mqtt-which-instant-messaging-protocol-is-best-for-your-chat-application">rst.software/blog</a></li>
+  </ul>
+
+  <h5>XMPP</h5>
+  <ul>
+  <li><a href="https://xmpp.org/software/?platform=linux">XMPP Software for Linux</a></li>
+  <li><a href="https://xmpp.org/software/gajim/">Gajim</a></li>
+  <li><a href="https://github.com/profanity-im/profanity">Profanity IM</a></li>
+  <li><a href="https://github.com/zom/zom-android">Zom Android</a></li>
+  <li><a href="http://conversations.im">Conversations IM</a></li>
+  <li><a href="https://github.com/psi-im/psi">Psi IM</a></li>
+  <li><a href="https://github.com/dino/dino">Dino IM</a></li>
+  <li><a href="https://github.com/nioc/xmpp-web">XMPP Web</a></li>
+  </ul>
+
+  <h5>Matrix (Protocol)</h5>
+  <ul>
+  <li><a href="https://matrix.org">matrix.org</a></li>
+  <li><a href="https://github.com/matrix-org">github.com/matrix-org</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Matrix_(protocol)">Wikipedia - Matrix Protocol</a></li>
+  <li><a href="https://reddit.com/r/Mastodon/comments/mzubbb/mastodon_vs_matrix">Mastodon vs Matrix Discussion</a></li>
+  </ul>
+
+  <h4>Communication Protocols Comparison: XMPP vs Matrix vs MQTT</h4>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>XMPP</th>
+      <th>Matrix</th>
+      <th>MQTT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Protocol Type</strong></td>
+      <td>XML-based messaging protocol</td>
+      <td>Real-time communication protocol</td>
+      <td>Lightweight messaging protocol</td>
+    </tr>
+    <tr>
+      <td><strong>Primary Use Case</strong></td>
+      <td>Instant messaging, presence</td>
+      <td>Decentralized messaging, VoIP</td>
+      <td>IoT, M2M communication</td>
+    </tr>
+    <tr>
+      <td><strong>Architecture</strong></td>
+      <td>Client-server</td>
+      <td>Decentralized (federated)</td>
+      <td>Client-broker</td>
+    </tr>
+    <tr>
+      <td><strong>Scalability</strong></td>
+      <td>Scalable with federated servers</td>
+      <td>Highly scalable with federation</td>
+      <td>Highly scalable with broker clusters</td>
+    </tr>
+    <tr>
+      <td><strong>Message Format</strong></td>
+      <td>XML</td>
+      <td>JSON</td>
+      <td>Binary (Optimized for low bandwidth)</td>
+    </tr>
+    <tr>
+      <td><strong>Security</strong></td>
+      <td>Supports TLS, SASL, and end-to-end encryption (OMEMO)</td>
+      <td>Supports TLS and end-to-end encryption (Olm, Megolm)</td>
+      <td>Supports TLS, username/password, and client certificates</td>
+    </tr>
+    <tr>
+      <td><strong>Offline Messaging</strong></td>
+      <td>Supported</td>
+      <td>Supported</td>
+      <td>Supported (via retained messages)</td>
+    </tr>
+    <tr>
+      <td><strong>Quality of Service (QoS)</strong></td>
+      <td>Basic message delivery with presence notifications</td>
+      <td>Basic message delivery with event notifications</td>
+      <td>Three levels: 0 (at most once), 1 (at least once), 2 (exactly once)
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Supported Clients</strong></td>
+      <td>Wide range of clients (e.g., Pidgin, Gajim)</td>
+      <td>Wide range of clients (e.g., Element, FluffyChat)</td>
+      <td>Numerous IoT clients (e.g., Eclipse Paho, Mosquitto)</td>
+    </tr>
+    <tr>
+      <td><strong>Extensibility</strong></td>
+      <td>Highly extensible with XEPs (XMPP Extension Protocols)</td>
+      <td>Extensible via custom events and modules</td>
+      <td>Extensible with custom topics and payloads</td>
+    </tr>
+    <tr>
+      <td><strong>License</strong></td>
+      <td>Open standard (IETF RFCs)</td>
+      <td>Open standard (Matrix.org)</td>
+      <td>Open standard (OASIS)</td>
+    </tr>
+  </tbody>
+  </table>
+
+  <h4>Others</h4>
+
+  <ul>
+  <li><a href="https://github.com/prof7bit/TorChat/wiki">TorChat Wiki</a></li>
+  <li><a href="https://whonix.org/wiki/HexChat">HexChat Info</a></li>
+  <li><a href="https://code.briarproject.org/briar/briar">Briar Project</a></li>
+  <li><a href="https://jitsi.org">Jitsi: Secure Video and Audio Calls</a></li>
+  <li><a href="https://chatsecure.org">Chat Secure</a></li>
+  </ul>
+
+  <h4>Phone Numbers</h4>
+
+  <h5>Phone Services</h5>
+  <ul>
+  <li><a href="https://mysudo.com">MySudo</a></li>
+  <li><a href="https://silent.link">SilentLink - Instant eSIM</a></li>
+  <li><a href="https://textverified.com">Textverified</a></li>
+  </ul>
+
+  <h4>SMS Verifiers</h4>
+
+  <ul>
+  <li><a href="http://hs3x.com">hs3x.com</a></li>
+  <li><a href="http://smsget.net">smsget.net</a></li>
+  <li><a href="https://sms-online.co">sms-online.co</a></li>
+  <li><a href="https://catchsms.com">catchsms.com</a></li>
+  <li><a href="http://sms-receive.net">sms-receive.net</a></li>
+  <li><a href="http://sms.sellaite.com">sms.sellaite.com</a></li>
+  <li><a href="http://receivefreesms.net">receivefreesms.net</a></li>
+  <li><a href="https://receive-a-sms.com">receive-a-sms.com</a></li>
+  <li><a href="http://receivesmsonline.in">receivesmsonline.in</a></li>
+  <li><a href="http://receivefreesms.com">receivefreesms.com</a></li>
+  <li><a href="http://receivesmsonline.me">receivesmsonline.me</a></li>
+  <li><a href="https://smsreceivefree.com">smsreceivefree.com</a></li>
+  <li><a href="https://smsreceiveonline.com">smsreceiveonline.com</a></li>
+  <li><a href="https://receive-sms-online.com">receive-sms-online.com</a></li>
+  <li><a href="https://receivesmsonline.net">receivesmsonline.net</a></li>
+  <li><a href="https://temp-mails.com/number">temp-mails.com</a></li>
+  <li><a href="https://freeonlinephone.org">freeonlinephone.org</a></li>
+  <li><a href="https://getfreesmsnumber.com">getfreesmsnumber.com</a></li>
+  </ul>
+
+  <br>
+  </details>
+  </div>
+
+  <!-- ########## -->
+
+  <div>
+  <details>
+  <summary>Telegram</summary>
+  <br>
+
+  <a href="https://whonix.org/wiki/Telegram">Telegram Security Wiki</a>
+  <br>
+
+  <p>Be cautious of impersonators. Always verify Telegram bios as scammers
+  may leave their own nickname blank. Beware of fake <a href="https://medium.com/immunefi/how-not-to-get-hacked-on-telegram-2db2b93a5fa2"
+  target="_blank" rel="noreferrer">notifications</a> about logins,
+  phishing links, and fake bots that may DM you first. Check official
+  Telegram news and tips channels.</p>
+
+  <blockquote>
+  <p>“No regular Telegram chats (1:1 or group) are end-to-end encrypted.
+  Only secret chats are E2E encrypted.”</p>
+  </blockquote>
+
+  <h3>Recommended Settings:</h3>
+
+  <ul>
+  <li>Phone Number → Who can see my phone number: Nobody</li>
+  <li>Phone Number → Who can find me by my number: My Contacts</li>
+  <li>Last Seen and Online → Who can see my timestamp: Nobody</li>
+  <li>Profile Photo → Who can see my profile photo: My Contacts</li>
+  <li>Calls → Who can call me: My Contacts (or Nobody)</li>
+  <li>Calls → Peer-to-peer: My Contacts (or Nobody to avoid exposing
+  your IP)</li>
+  <li>When starting a call, verify the emojis at the top-right corner
+  with the other person to prevent MitM attacks.</li>
+  <li>Forwarded Messages → Who can add a link to my account: My Contacts</li>
+  <li>Groups and Channels → Who can add me: My Contacts</li>
+  <li>Disable sticker loop animations. Animated stickers are a security
+  risk.
+  </li>
+  <li>Disable auto-downloading (Wi-Fi and cellular): Privacy and Security
+  → Data Settings</li>
+  <li>Set up 2FA (cloud password)</li>
+  <li>Disable P2P calls and secret chats if you don’t want to expose
+  your IP address.</li>
+  <li>Disable link and image previews in secret chats: Privacy and Security
+  settings
+  </li>
+  <li>Disable autoplay GIFs: <a href="https://csa.gov.sg/singcert/Advisories/ad-2022-013"
+  target="_blank" rel="noreferrer">Learn more</a></li>
+  <li>Never activate or DM any Telegram bot. Only use public chat bots
+  via commands.</li>
+  <li>When opening PDFs (e.g., CVs), use <a href="https://dangerzone.rocks/"
+  target="_blank" rel="noreferrer">Dangerzone</a> or Google Drive's
+  preview mode.</li>
+  <li>Monitor active sessions and terminate inactive ones. Be wary of
+  session stealers.</li>
+  <li>If you receive a login alert, verify it through the official Telegram
+  notification and news channels. Scammers may impersonate these
+  to steal your account.</li>
+  <li>Check out this <a href="https://telegra.ph/How-to-configure-Telegram-security-and-privacy-07-21"
+  target="_blank" rel="noreferrer">Telegram security guide</a>.</li>
+  <li>Learn more about Telegram limitations: <a href="https://github.com/tginfo/Telegram-Limits"
+  target="_blank" rel="noreferrer">GitHub Project</a> | <a href="https://crowdin.com/project/telegram-limits"
+  target="_blank" rel="noreferrer">Crowdin Translation</a></li>
+  </ul>
+
+  <br>
+  </details>
+  </div>
+
+  <!-- ########## -->
+
+  <div>
+  <details>
+  <summary>Discord</summary>
+  <br>
+
+  <h3>Basic Security Tips:</h3>
+
+  <ul>
+  <li>Use a randomly generated password. Use password managers like KeePassXC
+  or BitWarden to generate and store your passwords. <a href="https://0xrusowsky.substack.com/p/on-operational-security"
+  target="_blank" rel="noreferrer">Learn more</a>.</li>
+  <li>Enable two-factor authentication (2FA) in User Settings. Discord
+  supports apps like Aegis or Authy (disable multi-device for better
+  security).
+  </li>
+  <li>Configure privacy settings under <a href="https://github.com/mpgn/discord-e2e-encryption"
+  target="_blank" rel="noreferrer">Privacy and Safety</a>. Choose
+  whether to allow direct messages from server members. Note: some
+  servers with Captcha or verification bots may require DMs to
+  be open.</li>
+  <li>In Privacy and Safety, set who can add you as a friend. For higher
+  security, you can restrict friend requests to only server members
+  or no one.</li>
+  <li>Use a VPN. Alternatively, rent a VPS and set up your own open-source
+  VPN server. <a href="https://officercia.mirror.xyz/x91hTIDFrAL0lgqICRgWU7fLouuCMgvopQ9ZRvRXCLg"
+  target="_blank" rel="noreferrer">Learn more</a>.</li>
+  </ul>
+
+  <hr>
+
+  <h3>Common Discord Scam Example:</h3>
+
+  <ul>
+  <li>A scammer selects a <a href="https://officercia.mirror.xyz/x4nGX6YwhhmHj8TaQ53kBR5b5M1Ei_Y9_l1Vpext-Hk"
+  target="_blank" rel="noreferrer">victim</a> from a Discord channel.</li>
+  <li>The scammer creates a fake account impersonating the target.</li>
+  <li>He begins causing trouble in the channel, leading to a ban.</li>
+  <li>Using Discord Nitro tricks, the scammer fools moderators into banning
+  the real target's account.</li>
+  <li>After the ban, the scammer creates a fake discussion image showing
+  the moderators banning the target.</li>
+  <li>Pretending to be a moderator, the scammer contacts the target via
+  DM, offering to help reverse the ban.</li>
+  <li>The scammer creates urgency and asks the target to prove innocence
+  by joining a Discord call.</li>
+  <li>He instructs the target to open Discord Developer Tools and reveal
+  their Discord token, giving full access to the account.</li>
+  <li>The scammer then takes control of the target’s account, potentially
+  causing damage to the victim or their organization.</li>
+  </ul>
+
+  <br>
+  </details>
+  </div>
+
+  <!-- ########## -->
+  <hr>
+  <br>
+
+  <h3>Other Apps</h3>
+
+  <h4>Simple Apps</h4>
+  <ul>
+      <li><strong>Simple Dialer</strong> - A handy phone call manager with a phonebook, number blocking, and multi-SIM support.</li>
+      <li><strong>Simple Contacts</strong> - A premium app for contact management with no ads, supporting groups and favorites.</li>
+      <li><strong>Simple Calculator</strong> - A calculator for your quick calculations.</li>
+      <li><strong>Simple Calendar</strong> - Be notified of important moments in your life.</li>
+      <li><strong>Simple Clock</strong> - A combination of a clock, alarm, stopwatch, and timer.</li>
+  </ul>
+
+  <h4>File Manager</h4>
+  <ul>
+      <li><strong>Amaze File Manager</strong></li>
+      <li><strong>Material Files</strong></li>
+      <li><strong>Ghost Commander</strong></li>
+  </ul>
+
+  <h4>Browsers</h4>
+  <ul>
+      <li><a href="https://mozilla.org/en-US/firefox/browsers/mobile/focus" target="_blank"><strong>Firefox Focus</strong></a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US&gl=US" target="_blank"><strong>Firefox</strong></a></li>
+      <li><a href="https://bromite.org" target="_blank"><strong>Bromite</strong></a></li>
+      <li><a href="https://uc.droidware.info" target="_blank"><strong>Ungoogled Chromium Android</strong></a></li>
+      <li><a href="https://f-droid.org/pt_BR/packages/de.marmaro.krt.ffupdater/" target="_blank"><em>Interesting</em></a></li>
+  </ul>
+
+  <h4>Personalization</h4>
+  <ul>
+      <li><a href="https://github.com/NeoApplications/Neo-Launcher" target="_blank"><strong>Neo-Launcher</strong></a></li>
+      <li><a href="https://lawnchair.app" target="_blank"><strong>Lawnchair 2</strong></a> - Continuation of Lawnchair 1; Pixel features; fork of Launcher3.</li>
+      <li><a href="https://github.com/renzhn/Lawndesk" target="_blank"><strong>Lawndesk</strong></a> - Fork of Lawnchair V2; app-drawer-free launcher.</li>
+      <li><strong>Librechair</strong> - Degoogled; fork of Lawnchair V2 & Launcher3.</li>
+      <li><a href="https://github.com/LawnchairLauncher/lawnchair/releases" target="_blank"><strong>LawnChair 12</strong></a> - Continuation of LawnChair V2 with support for QuickSwitch and more. Includes simple design, themed icons, and wallpaper-based theming.</li>
+  </ul>
+
+  <h4>Email</h4>
+  <ul>
+      <li><a href="https://k9mail.app" target="_blank"><strong>K-9 Mail</strong></a></li>
+  </ul>
+
+  <h4>Navigation</h4>
+  <ul>
+      <li><a href="https://f-droid.org/en/packages/de.westnordost.streetcomplete/" target="_blank"><strong>StreetComplete</strong></a></li>
+      <li><a href="https://osmand.net" target="_blank"><strong>OsmAnd</strong></a></li>
+  </ul>
+
+  <h4>Cameras</h4>
+  <ul>
+      <li><a href="https://opencamera.sourceforge.io" target="_blank"><strong>Open Camera</strong></a></li>
+      <li><a href="https://f-droid.org/en/packages/com.simplemobiletools.camera" target="_blank"><strong>Simple Camera</strong></a></li>
+  </ul>
+
+  <h4>Streaming</h4>
+  <ul>
+      <li><strong>NewPipe</strong> - Lightweight Google-free YouTube client.</li>
+      <li><strong>LibreTube</strong> - An alternative YouTube front-end for Android.</li>
+  </ul>
+
+  <h4>Media Players</h4>
+  <ul>
+      <li><a href="https://mpv.io" target="_blank"><strong>mpv</strong></a></li>
+      <li><a href="https://videolan.org" target="_blank"><strong>VLC</strong></a></li>
+  </ul>
+
+  <h4>Office</h4>
+  <ul>
+      <li><a href="https://collaboraoffice.com/release-news/collabora-office-android-beta" target="_blank"><strong>Collabora Office</strong></a></li>
+      <li><strong>CryptPad</strong> - Alternative to Google Docs.</li>
+  </ul>
+
+  <h4>Advertisement Blocking</h4>
+  <ul>
+      <li><strong>AdAway</strong> - Ad blocker for Android using the hosts file (root permission recommended).</li>
+      <li><strong>Blokada</strong> - Ad blocker for Android using the VPN API.</li>
+      <li><strong>DNSfilter</strong> - Ad blocker for Android using a VPN, supports hosts files.</li>
+      <li><strong>DNS66</strong> - Blocks advertisements by intercepting DNS requests using the VPN layer.</li>
+      <li><strong>NetGuard</strong> - Simple and advanced ways to block internet access (no root required).</li>
+      <li><strong>RethinkDNS + Firewall</strong> - DNS over HTTPS/Tor/DNSCrypt client, firewall, and connection tracker.</li>
+  </ul>
+
+  <hr>
+  <br>
+
+  <h3>Social Media</h3>
+
+  <h4>Social Media Platforms</h4>
+  <ul>
+      <li><a href="https://mastodon.social" target="_blank"><strong>Mastodon</strong></a></li>
+      <li><strong>Nitter</strong> - Alternative to Twitter.</li>
+      <li><strong>Diaspora</strong> - Alternative to Facebook.</li>
+      <li><a href="https://nostr.com" target="_blank"><strong>Nostr</strong></a></li>
+      <li><a href="https://join-lemmy.org" target="_blank"><strong>Lemmy</strong></a></li>
+      <li><strong>Kbin</strong></li>
+      <li><strong>Saidit.net</strong></li>
+  </ul>
+
+  <hr>
+  <br>
+
+  <h3>Others</h3>
+  <ul>
+      <li><a href="https://forum.f-droid.org" target="_blank">F-Droid Forum</a></li>
+      <li><a href="https://xdaforums.com/c/general-discussion.240/" target="_blank">XDA General Discussion</a></li>
+      <li><a href="https://reddit.com/r/privacy" target="_blank">Reddit: Privacy</a></li>
+      <li><a href="https://reddit.com/r/PrivacyGuides" target="_blank">Reddit: Privacy Guides</a></li>
+      <li><a href="https://fossphones.com/os.html" target="_blank">FossPhones OS Information</a></li>
+      <li><a href="https://2fa.directory" target="_blank">2FA Directory</a></li>
+      <li><a href="https://www.rtl-sdr.com" target="_blank">RTL-SDR</a></li>
+      <li><a href="https://www.ifixit.com/Teardown" target="_blank">iFixit Teardowns</a></li>
+      <li><a href="https://github.com/waydroid/waydroid" target="_blank">Waydroid</a></li>
+  </ul>
+
+  <!--################################### -->
+
+  <p align="right"> <a href="https://github.com/RENANZG/My-Android-Mobile?tab=readme-ov-file#">Back to Top ⬆</a> </p>
+
+  <!--################################### -->
+
+  <div id="footer">
+
+  <br>
+  <br>
+  <br>
+
+  <p align="center">Made with ♥</p>
+  </div>
+
+  <!--################################### -->
+
+</body>
+</html>

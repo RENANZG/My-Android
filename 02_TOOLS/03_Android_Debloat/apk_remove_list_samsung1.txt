@@ -1,0 +1,90 @@
+## Generic
+com.amazon.fv # Amazon Fire Video
+com.amazon.kindle # Kindle eBook reader
+com.amazon.mp3 # Amazon Music
+com.amazon.mShop.android # Amazon Shopping
+com.amazon.venezia # Amazon Appstore
+com.audible.application # Audible audiobook app
+com.facebook.appmanager # Facebook app manager
+com.facebook.katana # Facebook main app
+com.facebook.services # Facebook services
+com.facebook.system # Facebook system services
+com.flipboard.app # Flipboard news aggregator
+com.google.android.apps.youtube.music # YouTube Music
+com.google.android.videos # Google Videos
+com.google.android.youtube # YouTube
+com.linkedin.android # LinkedIn app
+com.netflix.mediaclient # Netflix app
+com.tripadvisor.tripadvisor # TripAdvisor travel guide
+com.yelp.android.samsungedge # Yelp app for Samsung devices
+
+## Android System
+com.android.backupconfirm # Backup confirmation service
+com.android.bips # Basic input/output service
+com.android.chrome # Chrome web browser
+com.android.dreams.basic # Basic screensaver service
+com.android.dreams.phototable # Photo table screensaver
+com.android.email # Email client
+com.android.exchange # Exchange email client
+com.android.hotwordenrollment.okgoogle # Google Assistant hotword enrollment
+com.android.printspooler # Print spooler service
+com.android.providers.partnerbookmarks # Partner bookmarks provider
+com.android.providers.userdictionary # User dictionary provider
+com.android.sharedstoragebackup # Shared storage backup service
+com.android.stk # SIM Toolkit service
+com.android.wallpaper.livepicker # Live wallpaper picker
+com.android.wallpapercropper # Wallpaper cropping tool
+
+## Google Apps
+com.google.android.tts # Google Text-to-Speech
+com.google.android.apps.books # Google Play Books
+com.google.android.apps.docs # Google Docs
+com.google.android.apps.maps # Google Maps
+com.google.android.apps.tachyon # Google Hangouts
+com.google.android.gm # Gmail
+com.google.android.googlequicksearchbox # Google Search
+com.google.android.printservice.recommendation # Print service recommendations
+
+## Samsung Apps
+com.samsung.android.samsungpass # Samsung Pass for authentication
+com.samsung.android.scloud # Samsung Cloud service
+com.samsung.android.aircommandmanager # Air Command manager
+com.samsung.android.allshare.service.fileshare # File sharing service
+com.samsung.android.app.advsounddetector # Advanced sound detection
+com.samsung.android.app.camera # Camera app
+com.samsung.android.app.clipboardedge # Clipboard manager
+com.samsung.android.app.cocktailbarservice # Cocktail bar service
+com.samsung.android.app.galaxyfinder # Galaxy Finder
+com.samsung.android.app.memo # Memo app
+com.samsung.android.app.mirrorlink # MirrorLink service
+com.samsung.android.app.reminder # Reminder app
+com.samsung.android.app.routines # Routines manager
+com.samsung.android.app.sbrowseredge # Samsung Internet browser
+com.samsung.android.app.tips # Tips and tricks app
+com.samsung.android.app.vrsetupwizardstub # VR setup wizard
+
+## Security & Utilities
+com.sec.android.mdm # Mobile device management
+com.sec.enterprise.knox.attestation # Knox attestation service
+com.sec.android.service.health # Health service
+com.sec.android.provider.security # Security provider
+
+## Miscellaneous and Gaming
+com.google.android.apps.magazines # Google Play Magazines
+com.hancom.office.editor.hidden # Hancom Office Editor
+com.infraware.polarisoffice5 # Polaris Office
+com.microsoft.office.excel # Microsoft Excel
+com.microsoft.office.outlook # Microsoft Outlook
+com.microsoft.office.powerpoint # Microsoft PowerPoint
+com.microsoft.office.word # Microsoft Word
+com.sec.android.app.myfiles # My Files file manager
+com.sec.android.app.snote # S Note for note-taking
+com.sec.android.app.shealth # Samsung Health app
+com.sec.android.cover.ledcover # LED cover service
+com.sec.android.daemonapp # Daemon service
+com.sec.android.easyMover # Data transfer tool
+com.sec.android.widgetapp.samsungapps # Samsung Apps widget
+com.samsung.android.game.gamehome # Gaming hub
+com.samsung.android.game.gametools # Game tools for Samsung devices
+com.samsung.android.game.gos # Game Optimizing Service
+com.sec.android.app.gamehub # Game Hub
