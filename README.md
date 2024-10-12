@@ -220,17 +220,17 @@ ${\color{Red}\textbf{WARNING! BACKDOORS EVERYWHERE!}}$
 <h3>Backdoors Everywhere</h3>
 
 <a href="https://www.youtube.com/watch?v=aN9MzWw9G3o">
-  <img src="https://www.markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DaN9MzWw9G3o" alt="Did Apple Create This Backdoor for the NSA?" title="Did Apple Create This Backdoor for the NSA?"/>
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DaN9MzWw9G3o" alt=" Did Apple Create This Backdoor for the NSA? " title=" Did Apple Create This Backdoor for the NSA? "/>
 </a>
 <a href="https://www.youtube.com/watch?v=vg9ETJkeaTE">
-  <img src="https://www.markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3Dvg9ETJkeaTE" alt="Leaked: The Feds Can See Your Notifications" title="Leaked: The Feds Can See Your Notifications"/>
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dvg9ETJkeaTE" alt="Leaked: The Feds Can See Your Notifications" title="Leaked: The Feds Can See Your Notifications"/>
 </a><br>
 
 <a href="https://www.youtu.be/VonHAsY4-VA">
-  <img src="https://www.markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FVonHAsY4-VA" alt="Phone Surveillance Exposed" title="Phone Surveillance Exposed"/>
 </a>
 <a href="https://www.youtube.com/watch?v=lfOgm1IcBd0">
-  <img src="https://www.markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DlfOgm1IcBd0" alt="The Spy in Your Phone | Al Jazeera World" title="The Spy in Your Phone | Al Jazeera World"/>
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DlfOgm1IcBd0" alt="The Spy in Your Phone | Al Jazeera World" title="The Spy in Your Phone | Al Jazeera World"/>
 </a>
 
 <!-- ################################## -->
