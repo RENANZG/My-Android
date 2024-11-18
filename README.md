@@ -150,7 +150,7 @@
     <td align="left" valign="top" style="width: 50%">
     <a href="https://www.public.cyber.mil/stigs/downloads/?_dl_facet_stigs=mobility" target="_blank" rel="noopener noreferrer">• DoD Cyber Exchange - Security Technical Implementation Guides (STIGs)</a><br>
     <a href="https://www.blog.torproject.org/mission-improbable-hardening-android-security-and-privacy" target="_blank">• Mission Improbable: Hardening Android for Security And Privacy</a><br>
-    <a href="https://www.en.wikipedia.org/wiki/EncroChat" target="_blank">• EncroChat - Wikipedia</a><br>
+    <a href="https://en.wikipedia.org/wiki/EncroChat" target="_blank">• EncroChat - Wikipedia</a><br>
     <a href="https://www.theintercept.com/2021/07/27/pegasus-nso-spyware-security" target="_blank">• HOW TO DEFEND YOURSELF AGAINST THE POWERFUL NEW NSO SPYWARE ATTACKS DISCOVERED AROUND THE WORLD</a><br>
     <a href="https://www.citizenlab.ca/2023/04/nso-groups-pegasus-spyware-returns-in-2022" target="_blank">• NSO Group’s Pegasus Spyware Returns in 2022 with a Trio of iOS 15 and iOS 16 Zero-Click Exploit Chains</a><br>
     <a href="" target="_blank"></a><br>
@@ -236,13 +236,21 @@ ${\color{Red}\textbf{WARNING! BACKDOORS EVERYWHERE!}}$
 <!-- ################################## -->
 <hr>
 
-<h3>Mobile Insecurity</h3>
+<h3>Mobile security</h3>
 
-<h4>The GSM network is highly traceable; even a turned-off cell phone is no longer safe.</h4>
-
-<h4>Mobile security: Avoid use mobile devices, consider using a Faraday Bag.</h4>
+  <p>Mobile (in)security: Avoid use mobile devices, consider using a Faraday Bag. The GSM network is highly traceable; even a turned-off cell phone is no longer safe.</p>
 
    <p>A Faraday bag is a simple, portable enclosure that blocks electromagnetic fields, preventing electronic devices inside from sending or receiving signals. It's useful for protecting your devices from tracking, hacking, or unwanted communication. Below is a step-by-step guide to making your own Faraday bag.</p>
+  
+   <a href="https://www.youtube.com/watch?v=jfSe-xyQQzg">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjfSe-xyQQzg" alt="Make & Test DIY Faraday bag for key FOB, RFID card, Passport - STOP Keyless car theft & more" title="Make & Test DIY Faraday bag for key FOB, RFID card, Passport - STOP Keyless car theft & more"/>
+</a>
+<a href="https://www.youtube.com/watch?v=sQ_V9LYfiUg">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsQ_V9LYfiUg" alt="DIY Faraday Bag" title="DIY Faraday Bag"/>
+</a>
+<a href="https://www.youtube.com/watch?v=KdmIyKFTJEI">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKdmIyKFTJEI" alt="Do Faraday Bags Really Work? Check out these testing results!" title="Do Faraday Bags Really Work? Check out these testing results!"/>
+</a>
 
 <h5>Materials Needed</h5>
 
@@ -358,7 +366,8 @@ ${\color{Red}\textbf{WARNING! BACKDOORS EVERYWHERE!}}$
 <p><em>For intermediate security, it's no military-grade security.</em></p>
 
 <ul>
-    <li>Be aware of the physical security of your device; if it's seized, immediate access may be possible with Cellebrite despite all protections .</li>
+    <li>Consider using a Faraday Bag.</li>
+    <li>Be aware of the physical security of your device; if it's seized, immediate access may be possible with Cellebrite despite all protections.</li>
     <li>Keep your device's operating system and apps up to date to mitigate known vulnerabilities.</li>
     <li>Use full-disk encryption to protect data at rest. Both iOS and Android offer this feature.</li>
     <li>Enable a strong, alphanumeric password rather than a simple PIN or pattern.</li>
@@ -1224,7 +1233,6 @@ https://xdaforums.com/c/lg.12042/
       <li><a href="https://www.play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US&gl=US" target="_blank"><strong>Firefox</strong></a></li>
       <li><a href="https://www.bromite.org" target="_blank"><strong>Bromite</strong></a></li>
       <li><a href="https://www.uc.droidware.info" target="_blank"><strong>Ungoogled Chromium Android</strong></a></li>
-      <li><a href="https://www.f-droid.org/pt_BR/packages/de.marmaro.krt.ffupdater" target="_blank"><em>Interesting</em></a></li>
   </ul>
 
   <h4>Personalization</h4>
